@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Options.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VMFParser\Extensions.cs" />
+    <Compile Include="VMFParser\IVNode.cs" />
+    <Compile Include="VMFParser\Utils.cs" />
+    <Compile Include="VMFParser\VBlock.cs" />
+    <Compile Include="VMFParser\VMF.cs" />
+    <Compile Include="VMFParser\VProperty.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
